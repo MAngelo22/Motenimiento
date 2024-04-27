@@ -1,0 +1,55 @@
+body {
+    background-color: black; /* Establece el color de fondo de la página */
+    color: white; /* Establece el color de texto para toda la página */
+}
+
+.container {
+    width: 80%; /* Ancho del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Espaciado interno del contenedor */
+}
+
+h1 {
+    font-size: 2em; /* Tamaño de fuente del encabezado */
+}
+
+p {
+    font-size: 1.2em; /* Tamaño de fuente del párrafo */
+}
+
+.centered-image {
+    display: inline-block; /* Permite alinear la imagen horizontalmente */
+}
+
+nav {
+    
+    background-color: #333; /* Color de fondo del menú */
+}
+
+.logo img {
+    height: 50px; /* Ajusta la altura del logo según sea necesario */
+    width: auto; /* Ajusta automáticamente el ancho manteniendo la proporción */
+    margin-right: 20px; /* Espaciado a la derecha del logo */
+}
+
+nav ul {
+    font-style: align center;
+    list-style-type: none; /* Quita los estilos de lista */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Muestra los elementos de lista en línea */
+}
+
+nav ul li a {
+    display: block; /* Convierte los enlaces en elementos de bloque */
+    padding: 15px 20px; /* Añade relleno alrededor del texto */
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+    color: white; /* Color del texto */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el ratón */
+}
