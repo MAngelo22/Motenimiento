@@ -1,0 +1,57 @@
+{
+    "motos": [
+        {
+            "marca": "Yamaha",
+            "modelo": "YZF-R125",
+            "matricula": "7.....P",
+            "motor": "4 tiempos, refrigerado por líquido, SOHC",
+            "cc": "124.7",
+            "cv": "15",
+            "peso": "144Kg",
+            "cargaMax": "180 kg (367 lb)",
+            "normativaAnticontaminacion": "Euro5",
+            "consumoPromedio": "2.1L/100KM",
+            "combustible": "gasolina sin plomo de 95 octanos o mas / gasohol (E10) no superior al 10% de etanol",
+            "marchas": "6",
+            "veloMax": "127KM/h Punta Real",
+            "dimensiones": "Longitud 1990 milímetros (78,3 plg) Anchura 755 milímetros (29,7 plg)",
+            "capCombLleno": "11.5L",
+            "bateria": "12 V ,5.5Ah",
+            "neumaticos": {
+                "neumaticoDelantero": "bridgestone",
+                "neumaticoTrasero": "michelin",
+                "degradaciones": {
+                    "invierno": 10,
+                    "verano": 8
+                }
+            }
+        },
+        {
+            "marca": "Yamaha",
+            "modelo": "YZF-R125",
+            "matricula": "7.....P",
+            "motor": "4 tiempos, refrigerado por líquido, SOHC",
+            "cc": "124.7",
+            "anio": "2017",
+            "cv": "15",
+            "peso": "144Kg",
+            "cargaMax": "180 kg (367 lb)",
+            "normativaAnticontaminacion": "Euro5",
+            "consumoPromedio": "2.1L/100KM",
+            "combustible": "gasolina sin plomo de 95 octanos o mas / gasohol (E10) no superior al 10% de etanol",
+            "marchas": "6",
+            "veloMax": "127KM/h Punta Real",
+            "dimensiones": "Longitud 1990 milímetros (78,3 plg) Anchura 755 milímetros (29,7 plg)",
+            "capCombLleno": "11.5L",
+            "bateria": "12 V ,5.5Ah",
+            "neumaticos": {
+                "neumaticoDelantero": "bridgestone",
+                "neumaticoTrasero": "michelin",
+                "degradaciones": {
+                    "invierno": 10,
+                    "verano": 8
+                }
+            }
+        }
+    ]
+}

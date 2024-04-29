@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="estilo/style.css">
     <script type="text/javascript" src="JS/JSMoto.js"></script>
 </head>
-<body onload="cargarDOM()">
+<body id="body" onload="cargarDOM('Yamaha')">
     <nav id="navbar">
         <div class="logo">
             <ul><li>
                 <img style="width:100px;height:100px;"class="centered-image" src="media/logo.png">
             </li><li>
-                <h1>Bienvenido a Motenimiento</h1>
+                <h1>Motenimiento</h1>
             </li>
             </ul>
         </div>
@@ -26,11 +26,11 @@
     </nav>
     <div id="div1" class="container">
         <label for="motos">Selecciona tu moto:</label>
-        <select id="lista_motos" name="motos">
-            <option value="Yamaha">Yamaha</option>
-            <option value="Honda">Honda</option>
-            <option value="Ducati">Ducati</option>
-            <option value="Aprilia">Aprilia</option>
+        <select id="lista_motos" name="motos" onchange="cambiarOpcion(value)">
+            <option value="Yamaha" id="Ymh">Yamaha</option>
+            <option value="Honda" id="hnd">Honda</option>
+            <option value="Ducati" id="dct">Ducati</option>
+            <option value="Aprilia" id="prl">Aprilia</option>
         </select>
     </div>
     
