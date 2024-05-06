@@ -167,14 +167,14 @@ function cargarDOM() {
     "Puede alcanzar los " + arrayMotoYamaha.veloMax
   );
   var Dimensiones = document.createTextNode(
-    "Sus dimensiones son: " + arrayMotoYamaha.Dimensiones
+    "Sus dimensiones son: " + arrayMotoYamaha.dimensiones
   );
   var capCombLleno = document.createTextNode(
     "Capacidad de almacenamientode combustible de " +
       arrayMotoYamaha.capCombLleno
   );
   var Bateria = document.createTextNode(
-    "Dispone de Bateria de " + arrayMotoYamaha.Bateria
+    "Dispone de Bateria de " + arrayMotoYamaha.bateria
   );
 
   //Aqui empezamos a mostrar en pantalla añadiendo a los fieldsets
@@ -300,13 +300,13 @@ function cambiarOpcion(texto) {
         "Puede alcanzar los " + miMoto.veloMax
       );
       var Dimensiones = document.createTextNode(
-        "Sus dimensiones son: " + miMoto.Dimensiones
+        "Sus dimensiones son: " + miMoto.dimensiones
       );
       var capCombLleno = document.createTextNode(
         "Capacidad de almacenamientode combustible de " + miMoto.capCombLleno
       );
       var Bateria = document.createTextNode(
-        "Dispone de Bateria de " + miMoto.Bateria
+        "Dispone de Bateria de " + miMoto.bateria
       );
 
       //Aqui empezamos a mostrar en pantalla añadiendo a los fieldsets
@@ -408,13 +408,13 @@ function cambiarOpcion(texto) {
         "Puede alcanzar los " + miMoto.veloMax
       );
       var Dimensiones = document.createTextNode(
-        "Sus dimensiones son: " + miMoto.Dimensiones
+        "Sus dimensiones son: " + miMoto.dimensiones
       );
       var capCombLleno = document.createTextNode(
         "Capacidad de almacenamientode combustible de " + miMoto.capCombLleno
       );
       var Bateria = document.createTextNode(
-        "Dispone de Bateria de " + miMoto.Bateria
+        "Dispone de Bateria de " + miMoto.bateria
       );
 
       //Aqui empezamos a mostrar en pantalla añadiendo a los fieldsets
@@ -522,13 +522,13 @@ function cambiarOpcion(texto) {
         "Puede alcanzar los " + miMoto.veloMax
       );
       var Dimensiones = document.createTextNode(
-        "Sus dimensiones son: " + miMoto.Dimensiones
+        "Sus dimensiones son: " + miMoto.dimensiones
       );
       var capCombLleno = document.createTextNode(
         "Capacidad de almacenamientode combustible de " + miMoto.capCombLleno
       );
       var Bateria = document.createTextNode(
-        "Dispone de Bateria de " + miMoto.Bateria
+        "Dispone de Bateria de " + miMoto.bateria
       );
 
       //Aqui empezamos a mostrar en pantalla añadiendo a los fieldsets
@@ -636,13 +636,13 @@ function cambiarOpcion(texto) {
         "Puede alcanzar los " + miMoto.veloMax
       );
       var Dimensiones = document.createTextNode(
-        "Sus dimensiones son: " + miMoto.Dimensiones
+        "Sus dimensiones son: " + miMoto.dimensiones
       );
       var capCombLleno = document.createTextNode(
         "Capacidad de almacenamientode combustible de " + miMoto.capCombLleno
       );
       var Bateria = document.createTextNode(
-        "Dispone de Bateria de " + miMoto.Bateria
+        "Dispone de Bateria de " + miMoto.bateria
       );
 
       //Aqui empezamos a mostrar en pantalla añadiendo a los fieldsets
